@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:00"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#66dd77"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/border_timetime_layout"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Học ở trường"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/cloudy_day_24x24_scaled_for_category"
+            android:background="@drawable/rounded_button"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewLessonName"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lập trình hướng dối tượng"
+            android:gravity="center_vertical"
+            android:textSize="17sp"
+            android:textColor="#333"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewDescription"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/darkGray"
+            android:text="Tiết 8-12 phòng A5-203"
+            android:gravity="center_vertical"
+            android:minHeight="25dp"/>
+
+    </LinearLayout>
+</LinearLayout>
