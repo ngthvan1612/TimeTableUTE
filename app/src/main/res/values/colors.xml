@@ -13,4 +13,5 @@
     <color name="gray_dark">#999999</color>
     <color name="gray_light">#ddd</color>
     <color name="red">#ff0000</color>
+    <color name="light_blue">#2255ff</color>
 </resources>
